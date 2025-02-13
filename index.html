@@ -1,177 +1,92 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio soon!</title>
+    <link rel="stylesheet" href="v1.css">
+</head>
+<body>
 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+    <div class="top">
+        <h1 class="name">Hasan El Nahhas</h1>
+        <h3><a href="mailto:darktooth10@gmail.com">darktooth10@gmail.com</a></h3>
+        <h3><a href="https://linkedin.com/in/hsn1337" target="_blank">My linkedin</a> | <a href="https://github.com/grjg4" target="_blank">My github</a></h3>
+    </div>
 
-html {
-    border-width: 5px;
-    border-style: dashed;
-    border-color: black;
-}
+    <h1 class="title">SKILLS</h1><hr>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    margin: 10px 50px;
-}
+    <div class="desc">
+        <div class="desc_inner">
+            <h2 style="margin-right: 8px;">Languages: </h2>
+            <h3 style="font-weight: 500;">C lang, C++, PHP, Javascript, SQL, python</h3>
+        </div>
+        <div class="desc_inner">
+            <h2 style="margin-right: 8px;">Technologies: </h2>  
+            <h3 style="font-weight: 500;">NodeJS, React, CI/CD, Linux, PHPMYADMIN, GIT VCS</h3>
+        </div>
+    </div>
 
-.name {
-    font-size: 30px;
-    font-weight: 500;
-    margin: 7px;
-}
+    <h1 class="title">EXPERIENCE</h1><hr>
 
-.top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-}
+    <div class="desc">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <h2 style="font-weight: 700;">OVERVIEW</h2>
+            <h2>///</h2>
+        </div>
 
-.title {
-    font-size: 35px;
-    font-weight: 400;
-    margin: 10px 0px 4px 16px;
-}
+        <div style="margin: 10px 30px;">
+            <ul>
+                <li><h4 style="font-weight: 400;">Seasoned, experienced, self-taught software engineer with over 5 years of experience. I enjoy planning, constructing and building projects from scratch. I also enjoy problem solving and working with a team of other experienced programmers so we can learn from each other.</h4></li>
+            </ul>
+        </div>
 
-hr {
-    align-self: center;
-    height: 2px;
-    background-color: black;
-    width: 100%;
-}
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <h2 style="font-weight: 700;">Software Engineer</h2>
+            <h2>///</h2>
+        </div>
 
-.desc {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    padding: 10px;
-}
+        <div style="margin: 10px 30px; align-self: flex-start;">
+            <ul>
+                <li><h4 style="font-weight: 400;">Built A CLI Chat application where users on the LAN can connect and chat, with the ability to send Files and images to each other.</h4></li>
+                <li><h4 style="font-weight: 400;">Built a Multiplayer tic-tac-toe Game using the Winsock library and the win32 API.</h4></li>
+                <li><h4 style="font-weight: 400;">Made a calculator App using low-level windows functions with no bloat from outside (no external libraries used).</h4></li>
+                <li><h4 style="font-weight: 400;">Working on a game engine in OPENGL and GLFW.</h4></li>
+                <li><h4 style="font-weight: 400;">Built RESTful API's that served data to javascript's frontend based on dynamically chosen user inputs.</h4></li>
+            </ul>
+        </div>
 
-.desc_inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
-    padding: 4px;
-    margin: 5px;
-    align-self: flex-start;
-}
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <h2 style="font-weight: 700;">Web Developer</h2>
+            <h2>///</h2>
+        </div>
 
+        <div style="margin: 10px 30px; align-self: flex-start;">
+            <ul>
+                <li><h4 style="font-weight: 400;">Made a web app in PHP that allows users to login/signup and post comments that can be viewed by every other registered user.</h4></li>
+                <li><h4 style="font-weight: 400;">Helped make some webpages responsive with a team of other developers for a company.</h4></li>
+            </ul>
+        </div>
 
-@media only screen and (max-width: 708px) {
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+            <h2 style="font-weight: 700;">CyberSecurity Researcher</h2>
+            <h2>///</h2>
+        </div>
 
-    .desc .desc_inner h2 {
-        font-size: 20px;
-    }
+        <div style="margin: 5px 30px; align-self: flex-start;">
+            <ul>
+                <li><h4 style="font-weight: 400;">Cross-validated password strength on a 7000-point dataset and discovered that roughly 35% of passwords can be trivially defeated, identifying ineffective password security practices.</h4></li>
+                <li><h4 style="font-weight: 400;">Explored online privacy in relation to the 120% growth in digital fingerprinting since 2016.</h4></li>
+            </ul>
+        </div>
 
-    .desc .desc_inner h3 {
-        font-size: 13px;
-    }
+    </div>
 
-    .desc:last-of-type { 
-        font-size: 10px;
-    }
-}
+    <h1 class="title">EDUCATION</h1><hr>
+    <div class="desc" style="margin-top: 5px;">
+        <h4 style="align-self: flex-start; margin-left: 0px 0px 3px 6px;">-> <span style="font-weight: 900;">EXPECTED SOON</span> Degree in Computer Science | AUCE | LB</h4>
+        <h4 style="align-self: flex-start; margin-left: 0px 0px 3px 6px;">-> Studying to become a CCNA certified Network Engineer</h4>
+    </div>
 
-@media only screen and (max-width: 587px) {
-    .desc .desc_inner h2 {
-        font-size: 14px;
-    }
-
-    .desc .desc_inner h3 {
-        font-size: 11px;
-    }
-}
-
-@media only screen and (max-width:440px) {
-    .name {
-        font-size: 20px;
-    }
-
-    .title {
-        font-size: 23px;
-    }
-
-    .top h3 {
-        font-size: 15px;
-    }
-    
-    body {
-        margin: 10px;
-        padding: 0;
-    }
-
-    .desc {
-        margin: 0;
-        padding: 0;
-    }
-
-}
-
-@media only screen and (max-width:350px) {
-    .top h3 {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (max-width:330px) {
-    .title {
-        padding: 0;
-        margin: 0;
-        font-size: 23px;
-    }
-
-    body {
-        margin: 10px 30px;
-    }
-
-    html {
-        margin: 0;
-        padding: 0;
-    }
-
-    .desc {
-        width: 100%;
-        padding: 0;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .desc_inner h2 {
-        font-weight: 700;
-        font-size: 10px;
-    }
-
-    .desc_inner h3 {
-        font-weight: 400;
-        font-size: 12px;
-    }
-    
-}
-
-@media only screen and (max-width:260px) {
-    html {
-        border: 0;
-    }
-}
+</body>
+</html>
