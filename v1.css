@@ -104,13 +104,27 @@ hr {
     }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:440px) {
     .name {
         font-size: 20px;
     }
 
+    .title {
+        font-size: 23px;
+    }
+
     .top h3 {
         font-size: 15px;
+    }
+    
+    body {
+        margin: 10px;
+        padding: 0;
+    }
+
+    .desc {
+        margin: 0;
+        padding: 0;
     }
 
 }
@@ -119,6 +133,41 @@ hr {
     .top h3 {
         font-size: 10px;
     }
+}
+
+@media only screen and (max-width:330px) {
+    .title {
+        padding: 0;
+        margin: 0;
+        font-size: 23px;
+    }
+
+    body {
+        margin: 10px 30px;
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .desc {
+        width: 100%;
+        padding: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .desc_inner h2 {
+        font-weight: 700;
+        font-size: 10px;
+    }
+
+    .desc_inner h3 {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
 }
 
 @media only screen and (max-width:260px) {
