@@ -19,11 +19,6 @@
     background: #555;
   }
 
-html {
-    border-width: 5px;
-    border-style: dashed;
-    border-color: black;
-}
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin-top: 30px;
 }
 
 .title {
@@ -94,6 +89,12 @@ hr {
     }
 }
 
+@media only screen and (max-width: 595px) {
+    .date {
+        font-size: 11px;
+    }
+}
+
 @media only screen and (max-width: 587px) {
     .desc .desc_inner h2 {
         font-size: 14px;
@@ -101,6 +102,12 @@ hr {
 
     .desc .desc_inner h3 {
         font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 521px){
+    .innertitle {
+        font-size: 16px;
     }
 }
 
@@ -146,11 +153,6 @@ hr {
         margin: 10px 30px;
     }
 
-    html {
-        margin: 0;
-        padding: 0;
-    }
-
     .desc {
         width: 100%;
         padding: 0;
@@ -168,10 +170,4 @@ hr {
         font-size: 12px;
     }
     
-}
-
-@media only screen and (max-width:260px) {
-    html {
-        border: 0;
-    }
 }
