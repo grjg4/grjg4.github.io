@@ -33,7 +33,7 @@ body {
 
 .name {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 700;
     margin: 7px;
 }
 
@@ -80,6 +80,7 @@ hr {
 ul li {
     margin-bottom: 9px;
 }
+
 
 @media only screen and (max-width: 708px) {
 
