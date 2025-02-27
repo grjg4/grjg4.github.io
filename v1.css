@@ -3,23 +3,6 @@
     padding: 0;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: #888;
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
-
-
   html {
     margin: 20px;
   }
@@ -48,7 +31,6 @@ body {
 .title {
     font-size: 35px;
     font-weight: 400;
-    margin: 10px 0px 4px 16px;
 }
 
 hr {
@@ -64,7 +46,7 @@ hr {
     align-items: center;
     justify-content: center;
     height: fit-content;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .desc_inner {
@@ -72,14 +54,14 @@ hr {
     align-items: center;
     justify-content: space-between;
     width: 80%;
-    padding: 4px;
-    margin: 5px;
+    padding: 1px;
     align-self: flex-start;
 }
 
 ul li {
     margin-bottom: 3px;
 }
+
 
 
 @media only screen and (max-width: 708px) {
