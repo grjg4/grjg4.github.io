@@ -63,18 +63,20 @@ body {
     margin: 2px;
 }
 
-@media only screen and (max-width:924px) {
+@media only screen and (max-width:900px) {
 
     body {
-        margin: 70px;
+        margin: 60px;
     }
+
     #section h3 {
-        font-size: 15px;
-        font-weight: 300;
+        font-size: 17px;
+        font-weight: 400;
+        margin: 5px 0px 5px 0px;
     }
 
     #section h2 {
-        font-size: 17px;
+        font-size: 19px;
         margin-right: 10px;
     }
 }
@@ -90,13 +92,13 @@ body {
     }
 
     #list h3 {
-        font-weight: 200;
-        font-size: 18px;
+        font-weight: 400;
+        font-size: 16px;
     }
 
     #sectitle {
-        font-size: 16px;
-        font-weight: 700;
+        font-size: 19px;
+        font-weight: 800;
     }
 
     #section h2 {
