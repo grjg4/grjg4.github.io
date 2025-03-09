@@ -60,7 +60,11 @@ body {
 
 #list h3 {
     font-weight: 400;
-    margin: 2px;
+    margin: 3px;
+}
+
+.edu h3, h4 {
+    font-weight: 400;
 }
 
 @media only screen and (max-width:900px) {
@@ -110,5 +114,13 @@ body {
     #section h2 {
         font-size: 16px;
         
+    }
+
+    #list h3 {
+        font-size: 15px;
+    }
+
+    .edu h3 {
+        font-size: 6px;
     }
 }
